@@ -15,7 +15,7 @@
 Siga os passos abaixo para rodar o projeto localmente:
 
 1️⃣ Clone este repositório:
-```sh
+sh
 git clone https://github.com/seu-usuario/access_control_app.git
 2️⃣ Acesse a pasta do projeto:
 
