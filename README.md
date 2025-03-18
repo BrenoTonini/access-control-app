@@ -54,5 +54,7 @@ Crie uma branch: git checkout -b minha-feature
 Faça o commit das alterações: git commit -m "Minha nova feature"
 Envie para análise: git push origin minha-feature
 Abra um Pull Request
+
+
 📜 Licença
 Este projeto está sob a MIT License - sinta-se livre para usá-lo e modificá-lo.
