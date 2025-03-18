@@ -17,18 +17,21 @@ Siga os passos abaixo para rodar o projeto localmente:
 1️⃣ Clone este repositório:
 sh
 git clone https://github.com/seu-usuario/access_control_app.git
+
 2️⃣ Acesse a pasta do projeto:
 
 sh
 Copiar
 Editar
 cd access_control_app
+
 3️⃣ Instale as dependências:
 
 sh
 Copiar
 Editar
 flutter pub get
+
 4️⃣ Execute o app:
 
 sh
