@@ -1,60 +1,48 @@
-# 🎮 Access Control App
+# Access Control App
 
-🚀 Um aplicativo Flutter para **controle de acesso**, simulando a entrada e saída de pessoas em um ambiente.
+Um aplicativo Flutter para controle de acesso, simulando a entrada e saída de pessoas em um ambiente. O objetivo principal do aplicativo é gerenciar o número de pessoas em um local, permitindo a configuração de um limite máximo e a simulação de saídas automáticas após um determinado período.
 
-## 📸 Demonstração
-<img src="https://via.placeholder.com/600x300?text=Demo+do+App" alt="Demonstração do app" width="600">
+## Matrícula dos Componentes da Dupla
+- Eduardo Martins Cardoso
+- Breno Tonini Costa
 
-## ✨ **Recursos**
-✅ Contador de pessoas com limite máximo configurável  
-✅ Simulação automática de saída de pessoas após determinado tempo  
-✅ Mudança de cor dinâmica na interface  
-✅ Interface amigável e intuitiva  
+## Captura de Tela do Aplicativo
+<img src="assets/images/print_projeto1_appmobile.png" alt="Captura de Tela do App" width="600">
 
-## 📦 **Instalação**
+## Recursos
+- Contador de pessoas com limite máximo configurável.
+- Simulação automática de saída de pessoas após determinado tempo.
+- Mudança de cor dinâmica na interface.
+
+## Instalação 
 Siga os passos abaixo para rodar o projeto localmente:
 
-1️⃣ Clone este repositório:
-sh
+1. Clone este repositório:
+```sh
 git clone https://github.com/seu-usuario/access_control_app.git
-
-2️⃣ Acesse a pasta do projeto:
-
-sh
-Copiar
-Editar
+```
+2. Acesse a pasta do projeto:
+```sh
 cd access_control_app
-
-3️⃣ Instale as dependências:
-
-sh
-Copiar
-Editar
-flutter pub get
-
-4️⃣ Execute o app:
-
-sh
-Copiar
-Editar
+```
+3. Instale as dependências:
+```sh
 flutter run
-🛠️ Tecnologias Utilizadas
-Flutter 🚀 (Framework de UI)
-Dart 💙 (Linguagem de Programação)
-Material Design 🎨 (Interface Moderna)
-📌 Como Usar
-Aperte o botão "+" para adicionar pessoas ao ambiente
-Quando atingir 10 pessoas, a simulação de saída inicia automaticamente
-Aperte "Mudar Cor" para alterar a aparência do app
-👨‍💻 Contribuindo
-Contribuições são bem-vindas!
+```
+4. Execute o app:
+```sh
+flutter run
+```
 
-Faça um fork do repositório
-Crie uma branch: git checkout -b minha-feature
-Faça o commit das alterações: git commit -m "Minha nova feature"
-Envie para análise: git push origin minha-feature
-Abra um Pull Request
+## Tecnologias Utilizadas
+- Flutter (Framework de UI)
+- Dart (Linguagem de Programação)
+- Material Design (Interface Moderna)
 
+## Como Usar
+- Aperte o botão "+" para adicionar pessoas ao ambiente.
+- Quando atingir 10 pessoas, a simulação de saída inicia automaticamente.
+- Aperte "Mudar Cor" para alterar a aparência do app.
 
-📜 Licença
+## Licença
 Este projeto está sob a MIT License - sinta-se livre para usá-lo e modificá-lo.
