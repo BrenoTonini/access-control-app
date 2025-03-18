@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
+import 'dart:async';
 
 void main() {
   runApp(const MyApp());
@@ -62,10 +63,47 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
   final int _maxPeople = 10;
+  Timer? _timer;
+
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    _timer?.cancel();
+    super.dispose();
+  }
+
+  void _startAutoDecrement() {
+    _timer?.cancel();
+    _timer = Timer.periodic(const Duration(seconds: 3), (timer) {
+      if (mounted) {
+        setState(() {
+          if (_counter > 0) {
+            _counter--;
+          }
+
+        
+          if (_counter < 10) {
+            _timer?.cancel();
+          }
+        });
+      }
+    });
+  }
 
   void _incrementCounter() {
     setState(() {
-      _counter++;
+      if (_counter < 15) {
+        _counter++;
+
+    
+        if (_counter == 10) {
+          _startAutoDecrement();
+        }
+      }
     });
   }
 
@@ -80,19 +118,20 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: widget.randomColor,
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
       body: Column(
         children: [
-          if (_counter > _maxPeople)
+          if (_counter >= _maxPeople)
             Container(
               width: double.infinity,
               padding: const EdgeInsets.all(16),
               color: Theme.of(context).colorScheme.error,
               child: const Text(
-                'Limite de pessoas atingido',
+                'Limite de pessoas atingido, aguarde...',
                 style: TextStyle(color: Colors.white, fontSize: 18),
                 textAlign: TextAlign.center,
               ),
