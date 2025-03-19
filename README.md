@@ -7,7 +7,7 @@ Um aplicativo Flutter para controle de acesso, simulando a entrada e saída de p
 - Breno Tonini Costa
 
 ## Captura de Tela do Aplicativo
-<img src="assets/images/print_projeto1_appmobile.png" alt="Captura de Tela do App" width="600">
+<img src="assets/images/print_projeto1_appmobile.png" alt="Captura de Tela do App" width="300">
 
 ## Recursos
 - Contador de pessoas com limite máximo configurável.
