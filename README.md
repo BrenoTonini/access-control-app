@@ -25,11 +25,7 @@ git clone https://github.com/seu-usuario/access_control_app.git
 ```sh
 cd access_control_app
 ```
-3. Instale as dependências:
-```sh
-flutter run
-```
-4. Execute o app:
+3. Execute o app:
 ```sh
 flutter run
 ```
