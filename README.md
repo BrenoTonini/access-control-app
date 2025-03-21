@@ -19,7 +19,7 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 1. Clone este repositório:
 ```sh
-git clone https://github.com/seu-usuario/access_control_app.git
+git clone https://github.com/BrenoTonini/access_control_app.git
 ```
 2. Acesse a pasta do projeto:
 ```sh
