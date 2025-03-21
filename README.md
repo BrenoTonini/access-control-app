@@ -40,5 +40,17 @@ flutter run
 - Quando atingir 10 pessoas, a simulação de saída inicia automaticamente.
 - Aperte "Mudar Cor" para alterar a aparência do app.
 
-## Licença
-Este projeto está sob a MIT License - sinta-se livre para usá-lo e modificá-lo.
+## Observações
+
+- Este projeto é um exercício acadêmico de aplicativos mobile focado na introdução dos elementos básicos do Flutter, que são fundamentais para o desenvolvimento de interfaces de usuário eficientes e responsivas.
+- StatefulWidgets e StatelessWidgets
+- Row and Column
+- Dentre outros componentes.
+
+## Contribuição
+
+Projeto acadêmico não aberto para contribuições externas. No entanto, sinta-se à vontade para clonar o repositório e realizar modificações para aprendizado pessoal.
+
+---
+
+Desenvolvido como parte da disciplina **Aplicativos Mobile - Faculdade UCL**.
